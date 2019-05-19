@@ -1,5 +1,5 @@
 var in_string;
-
+// 
 function piratize(sentence) {
     var new_rstring=[];
     new_st=sentence.split(" ");
