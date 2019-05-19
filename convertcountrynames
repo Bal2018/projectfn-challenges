@@ -1,0 +1,10 @@
+let value = "england,wales,scotland,ireland,germany,france,canada,australia";
+console.log(value.split());
+var indcountry;
+let countries = [];
+
+countries = value.split(",");   /* each country is seperated by a comma */
+
+for(var i = 0; i < countries.length; i++){
+    console.log(countries[i]);      /*  Display each country on a new line */
+}
